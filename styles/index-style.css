@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    text-align: center;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, h2{
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color: darkgray;
+}
+
+.title{
+    font-size: 2.3em;
+}
+
+.section-container{
+    padding: 3em 0em;
+}
+
+#header-section{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: black;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+#nav-bar ul{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+#nav-bar li{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#statistics-section ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    margin-top: 120px;
+    padding: 0;
+}
+
+#news-container li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: auto;
+    width: 70%;
+}
+
+#news-container div{
+    text-align: left;
+}
+
+#symptoms-section .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+}
+
+#symptoms-list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+
+#prevention-section .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+#stay-at-home{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+#prevention-section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 2em;
+}
+
+#sources-section{
+    padding: 1em 3em;
+    text-align: left;
+}
+
+#sources-section a{
+    text-decoration: underline;
+    color: cadetblue;
+}
+#about-section .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+.creators{
+    width: 20%;
+    height: 20%;
+}
+
+#about-section img{
+    border-radius: 50%;
+}
+
